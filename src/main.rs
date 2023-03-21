@@ -22,7 +22,9 @@ async fn main() -> Result<()> {
        let record: DemoUser = result?;
 
         let my_keys = Keys::from_sk_str(&record.private_key)?;
-        let client = Client::new(&my_keys);
+        let opts = Options::new().wait_for_send(true);
+
+        let client = Client::new_with_opts(&my_keys, opts);
         client.add_relay("wss://relay.rip", None).await?;
         client.connect().await;
     
