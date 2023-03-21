@@ -1,0 +1,13 @@
+[package]
+name = "coinstr-demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+coinstr-core = { path = "../coinstr/coinstr-core" }
+nostr-sdk = "0.19"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+csv = "1.1"
