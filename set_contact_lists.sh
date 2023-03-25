@@ -7,7 +7,7 @@ export JAMES_KEY=a879bc870998dcacabcc4cfaa7e76387f55c8a5d307222de4db8df182b20e33
 export KAREN_KEY=2c9d61eff72a9f5952a37af544db733f96082c2cfc06301f86567ccf76ae8a60
 export MARK_KEY=5e6c9d26c38792e5120ddd29e288b2000ebd1d1dc58930e106ec7d0f66ada045
 export AMANDA_KEY=eb65c8842c7443b9f660366d03834e604cf001043114719b1d12069a8f8f06b9
-export TREY_KEY=4553e56832e5b6c4b83052f3b1d02d3d7b159ec5245c3cd97eda06683463744b
+export TREY_KEY=0d9b3eff1a2b28b41128ec8bad1f60caa74b2834b3f135464d2faf0a1d6ea0ca
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $LEE_KEY publish-contact-list-csv -f contact-list.csv
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $SARAH_KEY publish-contact-list-csv -f contact-list.csv
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $JOHN_KEY publish-contact-list-csv -f contact-list.csv
@@ -17,3 +17,5 @@ export TREY_KEY=4553e56832e5b6c4b83052f3b1d02d3d7b159ec5245c3cd97eda06683463744b
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $KAREN_KEY publish-contact-list-csv -f contact-list.csv
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $MARK_KEY publish-contact-list-csv -f contact-list.csv
 ~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $AMANDA_KEY publish-contact-list-csv -f contact-list.csv
+~/github.com/0xtrr/nostr-tool/target/release/nostr-tool -r wss://relay.rip --private-key $TREY_KEY publish-contact-list-csv -f trey-contact-list.csv
+
