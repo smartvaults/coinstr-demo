@@ -1,6 +1,9 @@
 # Create Profiles
 ```
-cargo run < demo-profiles.csv
+cargo run < waterwell/profiles.csv
+cargo run < trey-smoth-family/profiles.csv
+cargo run < profiles.csv
+
 ```
 # Set Contact Lists
 ```
