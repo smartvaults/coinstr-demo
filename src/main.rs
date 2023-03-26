@@ -29,7 +29,7 @@ async fn main() -> Result<()> {
         client.connect().await;
     
         let metadata = Metadata::new()
-            .name(record.username)
+            .name(&record.username)
             .display_name(record.display_name)
             .about(record.about)
             .picture(Url::parse(&record.picture_url)?)
@@ -38,7 +38,8 @@ async fn main() -> Result<()> {
     
         // Update metadata
         let event_id = client.set_metadata(metadata).await?;
-        dbg!(event_id);
+
+        println!("Setting metadata for name: {}; bech32: {}; hex: {}; event: {}", record.username, my_keys.public_key().to_bech32().unwrap(), my_keys.public_key(), event_id);
     }  
 
     Ok(())

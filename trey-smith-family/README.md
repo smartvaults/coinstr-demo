@@ -1,0 +1,9 @@
+
+Trey's npub: 
+npub1287hxjzvgdfc3d9zw65xk7ng3rvrcp6wj93puyrnduul8hrh9p8sk37cpe
+
+Karen's pub: 
+npub1gxlgqsjdlwdn84nw5n6nd8xxky904gdsk9n667upzt7ksj865vhq8em57x
+
+Lee's npub: 
+npub1aff8upvht8fk3f2j2vnsg48936wkunlzaxxnqttwqxppl2tnykwsahwngp
