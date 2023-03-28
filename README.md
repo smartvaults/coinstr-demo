@@ -15,6 +15,11 @@ cargo run < trey-smith-family/profiles.csv
 ./populate-demo-data.sh
 ```
 
+# Set main path
+```
+export COINSTR_PATH=./coinstr
+```
+
 # Keys
 ### Trey
 ```
