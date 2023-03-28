@@ -15,16 +15,24 @@ cargo run < trey-smith-family/profiles.csv
 ./populate-demo-data.sh
 ```
 
-# Add policy
-./target/release/coinstr-cli save-policy rasputin \
-    "Mid-range Savings" \
-    "Requires joint approval with spouse with backups with children and grandchildren" \
-    "or(and(pk(ec8dc2fca9810a3715ad5ee74e68c29de474c520eceef4d2591abb2c664a9be3),pk(a204f2e2d9a9775cd51ce5ca0fd94a81a870987e94ad3c8cf8db7d6ab8edc269)),thresh(1,thresh(1,pk(ec8dc2fca9810a3715ad5ee74e68c29de474c520eceef4d2591abb2c664a9be3),pk(a204f2e2d9a9775cd51ce5ca0fd94a81a870987e94ad3c8cf8db7d6ab8edc269)),thresh(2,pk(3be424aa1310fc493b743957f7e8589a70ecae9ac583ee796ea967c80688dbcb),pk(51fd73484c435388b4a276a86b7a6888d83c074e91621e10736f39f3dc77284f),older(4320)))and(thresh(2,pk(b62ee1c4ce0679dc35a20a4afd7fb1346213ac11377ec055c025ca342ccd5daa),pk(559a86045c76939bea8485b9450e1a29f49c75ee9684061c4b92de98d4e0e438),pk(e4b12ba0893584422b1e205441bd962b79e6228a1e2d2fc112c4efbc82234964)),older(518400)))"
+# Keys
+### Trey
+```
+ Bech32 Keys
+  Public   : npub1287hxjzvgdfc3d9zw65xk7ng3rvrcp6wj93puyrnduul8hrh9p8sk37cpe 
+  Private  : nsec1pkdnalc69v5tgyfgaj9668mqe2n5k2p5k0cn23jd97hs58tw5r9qec4u39 
+ Hex Keys
+  Public   : 51fd73484c435388b4a276a86b7a6888d83c074e91621e10736f39f3dc77284f 
+  Private  : 0d9b3eff1a2b28b41128ec8bad1f60caa74b2834b3f135464d2faf0a1d6ea0ca 
+```
 
-
-# Add policy
-./target/release/coinstr-cli save-policy lee \
-    "3 of 5 board member initial adopters" \
-    "Requires 3 of 5 board members" \
-    "thresh(3,pk(0dd81025a7b83c6f432b7afe1591417a4074b2e64b9824990a4f5709eb566320),pk(101e7953a54b18d0f41ea199b9adf2d7e643441b5af8e539531e6d7275cee1df),pk(41be80424dfb9b33d66ea4f5369cc6b10afaa1b0b167ad7b8112fd6848faa32e),pk(51fd73484c435388b4a276a86b7a6888d83c074e91621e10736f39f3dc77284f),pk(ea527e059759d368a55253270454e58e9d6e4fe2e98d302d6e01821fa973259d))"
+### Margaret 
+```
+ Bech32 Keys
+  Public   : npub15gz09cke49m4e4guuh9qlk22sx58pxr7jjkner8cmd7k4w8dcf5sq2pr9s 
+  Private  : nsec1jmpzw4fl8shkvsumyn2jxp9xg2htnz67ys7t4a5mkrshceem2tzqwmrn55 
+ Hex Keys
+  Public   : a204f2e2d9a9775cd51ce5ca0fd94a81a870987e94ad3c8cf8db7d6ab8edc269 
+  Private  : 96c227553f3c2f66439b24d52304a642aeb98b5e243cbaf69bb0e17c673b52c4 
+```
 
