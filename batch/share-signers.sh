@@ -1,0 +1,16 @@
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch lee ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch sarah ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch john ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch mark ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch karen ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch james ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch rachel ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch maria ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch amanda ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch trey ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch henry ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch margaret ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch rene ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch sully ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch samantha ./add-and-share-signer.txt
+COINSTR_PASSWORD=test ~/github.com/coinstr/coinstr/target/debug/coinstr-cli --network testnet batch angela ./add-and-share-signer.txt

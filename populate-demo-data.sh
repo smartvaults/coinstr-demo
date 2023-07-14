@@ -4,3 +4,5 @@ cargo run < trey-smith-family/profiles.csv
 cargo run < waterwell/profiles.csv
 ./waterwell/publish-contact-lists.sh
 
+cargo run < imported.skin/profiles.csv
+
